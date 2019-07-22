@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,8 +22,14 @@
   },
   "homepage": "https://github.com/fabiosebastiano/SSR#readme",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "^9.0.2",
+    "next-redux-wrapper": "^3.0.0-alpha.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
   }
 }
