@@ -23,7 +23,7 @@
   "homepage": "https://github.com/fabiosebastiano/SSR#readme",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "next": "^9.0.2",
+    "next": "^11.1.3",
     "next-redux-wrapper": "^3.0.0-alpha.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
